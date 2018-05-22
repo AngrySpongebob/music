@@ -1,0 +1,124 @@
+body{
+	background-color: #9a9688;
+	padding: 0;
+	margin:0;
+	height: 100%;
+}
+::-webkit-scrollbar {/*隐藏滚轮*/
+     display: none;
+ }
+ul,li{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	height: 1rem;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	background-color: #9a9688;
+}
+.top .top_l{
+	float: left;
+	height: 100%;
+	width:1.15rem;
+}
+.top .top_l img{
+	width:0.35rem;
+	height: 0.36rem;
+	float: left;
+	margin-top:0.3rem;
+	margin-left: 0.4rem;
+}
+.top .top_c{
+	float: left;
+	height: 100%;
+}
+.top .top_c  div{
+	width: 4.83rem;
+	height: 0.6rem;
+	margin-top: 0.18rem;
+	border-radius: 0.4rem;
+	float: left;
+	background-color: #fff;
+}
+.top .top_c  div input{
+	float: left;
+	margin-left: 1.26rem;
+	font-size: 0.2rem;
+	width:2.5rem;
+	height: 100%;
+	padding: 0;
+	border: none;
+	line-height: 100%;
+}
+.top .top_c  div input:focus{
+	border: none;
+}
+.top .top_r{
+	float: left;
+	height: 100%;
+}
+.top .top_r img{
+	float: left;
+	margin-left: 0.44rem;
+	margin-top: 0.3rem;
+	width: 0.36rem;
+	height: 0.34rem;
+}
+.center{
+	margin-top: 1rem;
+	height:9.47rem;
+	width: 100%;
+	background:url(../images/bookBack.png) no-repeat 0 0;
+	background-size: 100% 100%;
+	overflow: auto;
+}
+.bookList .bookRow{
+	width:6.98rem;
+	height: 3.06rem;
+	overflow: hidden;
+}
+.bookList .bookRow ul{
+	margin-left: 0.5rem;
+	width:6.85rem;
+	height: 2.4rem;
+	margin-top: 0.4rem;
+}
+.bookList .bookRow ul li{
+	float: left;
+	width:1.68rem;
+	height: 2.4rem;
+	list-style: none;
+	margin-right:0.6rem;
+	border-radius: 0.05rem;
+}
+.bookList .bookRow ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bookList .bookRow .bookLine{
+	width:6.8rem;
+	height: 0.08rem;
+	margin-top: 0.1rem;
+	margin-left:0.26rem;
+	background-color: #f1f0ef;
+}
+.foot{
+	height:2.3rem;
+	background-color: #737c5e;
+}
+.xuanxiang{
+	margin-top: 0.1rem;
+	width: 1.09rem;
+	float: right;
+	margin-right:0.35rem;
+}
+.xuanxiang img{
+	display: block;
+	width: 100%;
+	height: 1.09rem;
+}

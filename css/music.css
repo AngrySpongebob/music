@@ -1,0 +1,368 @@
+body{
+	background-color: #ffffff;
+	padding: 0;
+	margin:0;
+	height: 100%;
+}
+::-webkit-scrollbar {/*隐藏滚轮*/
+     display: none;
+ }
+p,h3,ul,li,button{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+li{
+	list-style: none;
+}
+.bottom{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.index{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+}
+.top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 199;
+	width:100%;
+	height: 2.31rem;
+	background-color: #79a6d1;
+}
+.top .top_t{
+	height:1.29rem; 
+}
+.top .top_left{
+	float: left;
+	width:1.41rem;
+	height:1.29rem;
+}
+.top .top_left img{
+	float: left;
+	border: none;
+	width: 0.56rem;
+	height: 0.56rem;
+	margin-top:0.39rem;
+	margin-left: 0.4rem;
+}
+.top .top_t_m{
+	box-sizing: border-box;
+	float: left;
+	width: 9.61rem;
+	height:1.29rem; 
+	font-size: 0.52rem;
+	color:#c9dbed;
+	padding-left: 2.15rem;
+}
+.top .top_t_m h3{
+	float: left;
+	line-height: 1.29rem;
+	margin-right:0.7rem;
+}
+.top .top_right{
+	float: left;
+	width: 1.4rem;
+	height:1.29rem; 
+}
+.top .top_right img{
+	float: left;
+	border: none;
+	width: 0.55rem;
+	height: 0.55rem;
+	margin-top:0.37rem;
+	margin-left: 0.45rem;
+}
+.top .search{
+	float: left;
+	font-size: 0.44rem;
+	height: 1.03rem;
+	width:100%;
+	border:none;
+	opacity: 0.07;
+	padding: 0;
+	text-indent: 0.4rem;
+	filter:alpha(opacity=7);
+	/*color:#fff;*/
+}
+.lunbo{
+	height:5.04rem;
+	margin-top:1rem;
+}
+#wrapper{
+	width:100%;
+	height:5.04rem;
+	position:relative;
+}
+#slider-wrap{
+	width:100%;
+	height:5.04rem;
+	position:relative;
+	overflow:hidden;
+}
+#slider-wrap ul#slider{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	transition: left 0.5s;
+	-moz-transition: left 0.5s;	/* Firefox 4 */
+	-webkit-transition: left 0.5s;	/* Safari 和 Chrome */
+	-o-transition: left 0.5s;	
+}
+
+#slider-wrap ul#slider li{
+	float:left;
+	position:relative;
+	width:12.42rem;
+	height:100%;	
+}
+#slider-wrap ul#slider li img{
+	display:block;
+	width:100%;
+	height: 100%;
+}
+.count{
+	position: relative;
+}
+.count .keywords{
+	position: absolute;
+	top:-0.13rem;
+	left: 0.23rem;
+	z-index: 100;
+	width:11.97rem;
+	height:2.57rem;
+	background-color: #96bce1;
+}
+.count .keywords ul{
+	width:100%;
+	height: 100%;
+}
+.count .keywords ul li{
+	float: left;
+	width:2.394rem;
+	height:2.57rem;
+}
+.count .keywords ul li img{
+	display: block;
+	margin: 0 auto;
+	width: 0.72rem;
+	height: 0.68rem;
+	margin-top: 0.58rem;
+}
+.count .keywords ul li p{
+	text-align: center;
+	line-height: 0.97rem;
+	font-size: 0.38rem;
+	color:#ffffff ;
+}
+.count .gexing{
+	float: left;
+	margin-top:3rem;
+	margin-left: 0.23rem;
+	width: 11.97rem;
+	height: 4.18rem;
+	background-color: #95bbe1;
+}
+.count .gexing .gexingdiantai{
+	float: left;
+	width:4.16rem;
+	height:4.18rem;
+	background:url("images/gexing.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.search1{
+	cursor: pointer;
+	position: absolute;
+	width: 1.02rem;
+	height: 1.02rem;
+	right: 0;
+	background: url("i/find.png") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.play{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height:1.68rem;
+	z-index: 1000;
+	background: url(i/theme1.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.play .song_img{
+	float: left;
+	margin-left:0.6rem;
+	height: 1.22rem;
+	width: 1.22rem;
+	border-radius: 50%;
+	margin-top:0.25rem;
+	margin-right: 0.36rem;
+}
+.play .songName{
+	position: absolute;
+	left: 2.5rem;
+	color: #ffffff;
+	height:0.78rem;
+	margin-right: 0.2rem;
+	line-height:0.78rem;
+	font-size:0.38rem;
+	width:5.5rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	margin-top: 0.2rem;
+}
+.play .play_kongjian{
+	float: right;
+}
+.play .bofangIcon{
+	float: left;
+	margin-left:0.36rem;
+	height: 1.22rem;
+	width: 1.22rem;
+	border-radius: 50%;
+	margin-top:0.25rem;
+	margin-right: 0.36rem;
+}
+.serRes{
+	display: none;
+	margin-top: 2.31rem;
+}
+.songList{
+	height:1.64rem;
+	width: 100%;
+	cursor: pointer;
+	background: #94b9df;
+	padding-top:0.2rem;
+}
+.songList .songNa{
+	font-size:0.42rem;
+	color: #ffffff;
+	line-height: 0.82rem;
+	height:0.82rem;
+	margin-left:0.46rem;
+}
+.songList .songAu{
+	font-size: 0.34rem;
+	color: #d2e2f2;
+	line-height:0.34rem;
+	height:0.34rem;
+	margin-left:0.46rem;
+}
+.play .three.span{
+	display: none;
+}
+.play #time{
+	display: none;
+}
+.play .song_author{
+	display: none;
+}
+/*播放页面展开以后的样式*/
+.play_a{
+	position: fixed;
+	bottom: 0;
+	z-index: 1000;
+	height: 100%;
+	width:100%;
+	background-color: #8e8d8e;
+}
+.play_a .song_author{
+	height:0.9rem;
+	text-align: center;
+	font-size:0.4rem;
+	line-height: 0.9rem;
+	color: #fefefe;
+}
+.play_a .song_img{
+	padding:0.22rem;
+	background-color: #777675;
+	display: block;
+	width:11rem;
+	height:11rem;
+	margin:0 auto;
+	margin-top: 0.58rem;
+}
+.play_a .shouqi{
+	float: left;
+	width:0.6rem;
+	height:0.32rem;
+	margin-top: 0.37rem;
+	margin-left:0.57rem;
+	background: url(i/shouqi.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.play_a  .sandian{
+	float: right;
+	width:0.7rem;
+	height:0.3rem;
+	margin-top: 0.37rem;
+	margin-right:0.55rem;
+	background: url(i/dot.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.play_a .songName{
+	text-align: center;
+	height: 1.03rem;
+	width: 100%;
+	font-size:0.54rem;
+	color:#ffffff;
+	line-height: 1.03rem;
+}
+.play_a .bofangIcon{
+	display: block;
+	height:2rem;
+	width:2rem;
+	margin:0 auto;
+}
+/*时间线*/
+.play_a #time{
+	display: block;
+	margin-top: 0.6rem;
+}
+.play_a .time_l{
+	float: left;
+	text-align: center;
+	font-size:0.3rem;
+	color: #c9c7c6;
+	width:1.46rem;
+	height:0.4rem;
+	line-height:0.4rem;
+}
+.time_line{
+	position: relative;
+	float: left;
+	margin-top:0.16rem;
+	display: block;
+	height:0.07rem;
+	width: 9.5rem;
+	background-color: #e6e5e6;
+}
+.play_a .time_lined{
+	position: absolute;
+	left:0;
+	width:0;
+	height: 0.07rem;
+	background-color: #ffe565;
+}
+.play_a .time_lined img{
+	float: right;
+	margin-right:-0.27rem;
+	width:0.48rem;
+	height: 0.48rem;
+	margin-top:-0.21rem;
+}
+.play_a .time_all{
+	float: left;
+	text-align: center;
+	font-size:0.3rem;
+	color: #c9c7c6;
+	width:1.46rem;
+	height:0.4rem;
+	line-height:0.4rem;
+}
