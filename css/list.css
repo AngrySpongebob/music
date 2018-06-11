@@ -1,0 +1,85 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #79a6d1;
+}
+.list .lleft{
+	height: 2rem;
+	margin-left: 0.5rem;
+	float: left;
+	width: 70%;
+	line-height: 2rem;
+	font-size: 1.2rem;
+	color:#ffffff;
+}
+.list .lleft var {
+	display: inline-block;
+	height:1.2rem;
+	width: 1.2rem;
+	margin-top:0.3rem;
+	margin-right: 0.2rem;
+	background:url(images/bo.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.list_ ul li{
+	position: relative;
+	height:4rem;
+	clear: both;
+	border-bottom: 0.04rem solid #d7d7ff; 
+	background-color: #6c8dd4;
+}
+.list_ ul li var {
+	float: right;
+	width:1.6rem;
+	height:0.4rem;
+	margin-top: 1.7rem;
+	margin-right: 0.4rem;
+	background:url(i/dot_a.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.list_ ul li span{
+	position: absolute;
+	z-index: 100;
+	width:100%;
+	height: 4rem;
+	left: 0;
+	top:0;
+	opacity:0;
+	filter:alpha(opacity=50)
+}
+.list_ ul li h4{
+	height: 100%;
+	line-height: 4rem;
+	float: left;
+	width:3rem;
+	font-size: 2rem;
+	color: #fbff5d;
+	margin-left: 0.5rem;
+}
+.list_ ul li p{
+	height: 100%;
+	float: left;
+	width:60%;
+	color: #ffffff;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.list_ ul li p b{
+	display: block;
+	margin-top:0.5rem;
+	line-height: 1.6rem;
+	height: 1.6rem;
+	font-size: 1.2rem;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.list_ ul li p strong{
+	display: block;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	font-weight: normal;
+	font-size: 1rem;
+	color:#ececec;
+	letter-spacing: 1px;
+}
